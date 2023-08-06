@@ -1,0 +1,54 @@
+# Created at 2023-05-02T09:48:38.503
+Exception in thread "main" java.lang.reflect.InvocationTargetException
+
+# Created at 2023-05-02T09:48:38.504
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2023-05-02T09:48:38.505
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+# Created at 2023-05-02T09:48:38.505
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2023-05-02T09:48:38.506
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+# Created at 2023-05-02T09:48:38.506
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+
+# Created at 2023-05-02T09:48:38.507
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+# Created at 2023-05-02T09:48:38.507
+Caused by: java.lang.RuntimeException: Class java/util/UUID could not be instrumented.
+
+# Created at 2023-05-02T09:48:38.508
+	at org.jacoco.agent.rt.internal_14f7ee5.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:139)
+
+# Created at 2023-05-02T09:48:38.508
+	at org.jacoco.agent.rt.internal_14f7ee5.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:100)
+
+# Created at 2023-05-02T09:48:38.508
+	at org.jacoco.agent.rt.internal_14f7ee5.PreMain.createRuntime(PreMain.java:55)
+
+# Created at 2023-05-02T09:48:38.509
+	at org.jacoco.agent.rt.internal_14f7ee5.PreMain.premain(PreMain.java:47)
+
+# Created at 2023-05-02T09:48:38.509
+	... 6 more
+
+# Created at 2023-05-02T09:48:38.510
+Caused by: java.lang.NoSuchFieldException: $jacocoAccess
+
+# Created at 2023-05-02T09:48:38.510
+	at java.base/java.lang.Class.getField(Class.java:2117)
+
+# Created at 2023-05-02T09:48:38.511
+	at org.jacoco.agent.rt.internal_14f7ee5.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:137)
+
+# Created at 2023-05-02T09:48:38.511
+	... 9 more
+
+# Created at 2023-05-02T09:48:38.511
+*** java.lang.instrument ASSERTION FAILED ***: "result" with message agent load/premain call failed at s\src\java.instrument\share\native\libinstrument\JPLISAgent.c line: 422
+
