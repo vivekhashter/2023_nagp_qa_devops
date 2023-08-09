@@ -32,8 +32,6 @@
                             <forkCount>3</forkCount>
                           <reuseForks>true</reuseForks>
                       <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
-			<testSourceDirectory>C:\Users\viveksharma11\OneDrive - Nagarro\Desktop\assignmentone\test\src\test\java\Com\Sample\testcases\</testSourceDirectory>
-                     <testClassesDirectory>${project.build.directory}/classes/</testClassesDirectory>
                            </configuration>
 			</plugin>
 
