@@ -32,6 +32,8 @@
                             <forkCount>3</forkCount>
                           <reuseForks>true</reuseForks>
                       <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
+			<testSourceDirectory>${basedir}/src/main/java/</testSourceDirectory>
+                    <testClassesDirectory>${project.build.directory}/classes/</testClassesDirectory>
                            </configuration>
 			</plugin>
 
