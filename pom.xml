@@ -34,6 +34,19 @@
                       <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
                            </configuration>
 			</plugin>
+			
+                    <plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version> <!-- Use the appropriate version -->
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+                <compilerArgs>
+                    <arg>-Xlint:all</arg> <!-- Enable all lint warnings -->
+                </compilerArgs>
+            </configuration>
+        </plugin>
 
 			
 		</plugins>
