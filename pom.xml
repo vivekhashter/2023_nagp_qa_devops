@@ -32,6 +32,9 @@
 			<plugin>
 				<artifactId>maven-surefire-plugin</artifactId>
                                        <version>2.19.1</version>
+				 <configuration>
+                 <testFailureIgnore>false</testFailureIgnore>
+                    </configuration>
                      <dependencies>
                     <dependency>
                         <groupId>org.junit.platform</groupId>
