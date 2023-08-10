@@ -9,7 +9,7 @@ public class SigninPage  {
         this.driver = driver;
     }
 	
-	
+	//this is for testing purpose
 	public static By signinbutton = By.xpath("//div[@class='panel header']//a[contains(text(),'Sign In')]");
 	public static By email = By.xpath("//input[@id='email']");
 	public static By password = By.xpath("//fieldset[@class='fieldset login']//input[@id='pass']");
