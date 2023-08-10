@@ -16,7 +16,7 @@ import Com.Sample.pages.CreateAccountPage;
 import Com.Sample.pages.GearPage;
 import Com.Sample.pages.TrainingPage;
 
-public class TrainingTest extends basepage {
+public class Training1Test extends basepage {
 	CreateAccountPage cp;
 	TrainingPage tp;
 	String expectedUrl = "https://magento.softwaretestingboard.com/training.html";
