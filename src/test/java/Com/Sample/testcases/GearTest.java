@@ -14,7 +14,7 @@ import Com.Sample.base.basepage;
 import Com.Sample.pages.CreateAccountPage;
 import Com.Sample.pages.GearPage;
 import Com.Sample.pages.MenFunctionalityPage;
-import junit.framework.Assert;
+import org.junit.Assert; 
 
 public class GearTest extends basepage {
 	CreateAccountPage cp = new CreateAccountPage(driver);
