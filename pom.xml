@@ -31,7 +31,7 @@
 				<configuration>
                       <skipTests>false</skipTests>
 		<testFailureIgnore>true</testFailureIgnore>		
-                   <forkCount>always</forkCount>
+                   <forkCount>1</forkCount>
             </configuration>
 			</plugin>
 		</plugins>
