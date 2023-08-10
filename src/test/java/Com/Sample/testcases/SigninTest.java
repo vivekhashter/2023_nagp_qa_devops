@@ -12,7 +12,6 @@ import Com.Sample.pages.CreateAccountPage;
 import Com.Sample.pages.SearchFunctionalityPage;
 import Com.Sample.pages.SigninPage;
 import Com.Sample.utilities.ReadExcelData;
-import junit.framework.Assert;
 
 public class SigninTest extends basepage {
 	CreateAccountPage cp = new CreateAccountPage(driver);
