@@ -23,7 +23,7 @@ public class Training1Test extends basepage {
 
 	private static Logger logger = LogManager.getLogger(WhatNewTest.class);
 
-	public TrainingTest() {
+	public Training1Test() {
 		super();// TODO Auto-generated constructor stub
 	}
 
