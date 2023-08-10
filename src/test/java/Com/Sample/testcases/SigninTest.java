@@ -12,6 +12,7 @@ import Com.Sample.pages.CreateAccountPage;
 import Com.Sample.pages.SearchFunctionalityPage;
 import Com.Sample.pages.SigninPage;
 import Com.Sample.utilities.ReadExcelData;
+import org.junit.Assert; 
 
 public class SigninTest extends basepage {
 	CreateAccountPage cp = new CreateAccountPage(driver);
@@ -52,10 +53,10 @@ public class SigninTest extends basepage {
 		if (driver.findElements(SigninPage.assertion).size() > 0) {
 			result = true;
 		}
+		Assert.assertTrue(result);
 		
 
 	}
-
 	@Test
 	public void signInToLumaPortalFailed() throws Exception {
 		String Email = ReadExcelData.readingData(1, 0, true);
@@ -75,6 +76,7 @@ public class SigninTest extends basepage {
 		if (driver.findElements(SigninPage.assertion).size() > 0) {
 			result = true;
 		}
+		Assert.assertTrue(result);
 	
 
 	}
