@@ -35,7 +35,6 @@
 				<version>2.19.1</version>
 				<configuration>
                             <forkCount>3</forkCount>
-                          <reuseForks>true</reuseForks>
                            </configuration>
 			</plugin>
 			
