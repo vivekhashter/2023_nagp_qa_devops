@@ -41,7 +41,7 @@ public class GearTest extends basepage {
 		Thread.sleep(3000);
 
 	}
-	@Test(priority = 6)
+	@Test(priority = 45)
 	public void clickOnGearButton() throws InterruptedException {
 		driver.findElement(GearPage.gear).click();
 		Thread.sleep(3000);
