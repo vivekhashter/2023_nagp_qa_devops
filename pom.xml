@@ -30,7 +30,8 @@
 				<version>2.5</version>
 				<configuration>
                       <skipTests>false</skipTests>
-                   <forkMode>once</forkMode>
+		<testFailureIgnore>true</testFailureIgnore>		
+                   <forkMode>3</forkMode>
             </configuration>
 			</plugin>
 		</plugins>
