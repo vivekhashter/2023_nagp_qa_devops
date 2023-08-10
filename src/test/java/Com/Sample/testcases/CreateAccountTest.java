@@ -17,7 +17,7 @@ import Com.Sample.base.basepage;
 import Com.Sample.pages.CreateAccountPage;
 import Com.Sample.pages.WhatNewPage;
 import Com.Sample.utilities.PropertiesFile;
-import junit.framework.Assert;
+import org.junit.Assert; 
 
 public class CreateAccountTest extends basepage {
 	CreateAccountPage create = new CreateAccountPage(driver);
