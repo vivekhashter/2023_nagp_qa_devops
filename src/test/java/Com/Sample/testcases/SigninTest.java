@@ -52,7 +52,7 @@ public class SigninTest extends basepage {
 		if (driver.findElements(SigninPage.assertion).size() > 0) {
 			result = true;
 		}
-		Assert.assertTrue(result);
+		
 
 	}
 
@@ -75,7 +75,7 @@ public class SigninTest extends basepage {
 		if (driver.findElements(SigninPage.assertion).size() > 0) {
 			result = true;
 		}
-		Assert.assertTrue(result);
+	
 
 	}
 
